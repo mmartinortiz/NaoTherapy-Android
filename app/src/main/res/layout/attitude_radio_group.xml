@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_medium"
+        android:text="@string/tts_action_label"
+        android:paddingLeft="@dimen/button_padding"
+        android:paddingStart="@dimen/button_padding"
+        android:paddingRight="@dimen/button_padding"
+        android:paddingEnd="@dimen/button_padding" />
+
+    <nl.tue.id.roboticslab.naotherapy.therapy.conversations.AttitudeRadioGroup
+        android:id="@+id/attitude_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/attitude_normal_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/attitude_normal_selector" />
+
+        <RadioButton
+            android:id="@+id/attitude_negative_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/attitude_negative_selector" />
+
+        <RadioButton
+            android:id="@+id/attitude_sad_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/attitude_sad_selector" />
+
+        <RadioButton
+            android:id="@+id/attitude_positive_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/attitude_positive_selector" />
+
+        <RadioButton
+            android:id="@+id/attitude_happy_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/attitude_happy_selector" />
+
+        <TextView
+            android:id="@+id/tts_emotion_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_medium"
+            android:text="@string/attitude_label"
+            android:textColor="@color/orange"
+            android:paddingLeft="@dimen/button_padding"
+            android:paddingStart="@dimen/button_padding"
+            android:paddingRight="@dimen/button_padding"
+            android:paddingEnd="@dimen/button_padding" />
+
+    </nl.tue.id.roboticslab.naotherapy.therapy.conversations.AttitudeRadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/emotions_header"
+        style="?android:textAppearanceLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_header"
+        android:padding="@dimen/button_padding"
+        android:text="@string/emotions_header"
+        android:textColor="@android:color/white" />
+
+
+    <FrameLayout
+        android:id="@+id/frame_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2">
+
+        <VideoView
+            android:id="@+id/emotions_video"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <GridView
+            android:id="@+id/emotions_gridview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:numColumns="1"
+            android:horizontalSpacing="@dimen/gridview_horizontal_spacing"
+            android:paddingLeft="@dimen/gridview_horizontal_spacing"
+            android:paddingRight="@dimen/gridview_horizontal_spacing"
+            android:verticalSpacing="@dimen/gridview_vertical_spacing" />
+
+        <TextView
+            android:id="@+id/emotions_congratulate_label"
+            style="?android:textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/emotions_congratulate_text"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/emotions_next_button"
+        style="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="@dimen/button_margin"
+        android:layout_marginRight="@dimen/gridview_horizontal_spacing"
+        android:layout_weight="0"
+        android:background="@color/orange"
+        android:drawableEnd="@drawable/next_icon"
+        android:gravity="center_vertical"
+        android:padding="@dimen/button_padding"
+        android:text="@string/next_button"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+

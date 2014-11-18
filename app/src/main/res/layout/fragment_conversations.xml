@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:onClick="onClick"
+    tools:context="nl.tue.id.roboticslab.naotherapy.therapy.conversations.ConversationsActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="5">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_header"
+            android:textColor="@android:color/white"
+            android:gravity="start"
+            android:paddingTop="@dimen/button_padding"
+            android:paddingBottom="@dimen/button_padding"
+            android:paddingLeft="@dimen/action_left_margin"
+            android:paddingStart="@dimen/action_left_margin"
+            android:paddingRight="@dimen/action_left_margin"
+            android:paddingEnd="@dimen/action_left_margin"
+            android:text="@string/conversations_left_header"
+            style="?android:textAppearanceLarge" />
+
+        <FrameLayout
+            android:id="@+id/therapy_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_header"
+            android:textColor="@android:color/white"
+            android:gravity="start"
+            android:padding="@dimen/button_padding"
+            android:text="@string/conversations_right_header"
+            style="?android:textAppearanceLarge" />
+
+        <FrameLayout
+            android:id="@+id/tts_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center" />
+
+        <FrameLayout
+            android:id="@+id/sentences_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center" />
+    </LinearLayout>
+</LinearLayout>

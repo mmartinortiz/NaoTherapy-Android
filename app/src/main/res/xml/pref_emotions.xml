@@ -1,0 +1,63 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:key="pref_number_of_emotions"
+        android:title="@string/pref_title_number_of_emotions"
+        android:entries="@array/pref_emotions_to_display"
+        android:entryValues="@array/pref_emotions_to_display"
+        android:defaultValue="6"
+        android:summary="@string/pref_summary_number_of_emotions"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+
+    <ListPreference
+        android:key="pref_number_of_exercises"
+        android:title="@string/pref_title_number_of_exercises"
+        android:entries="@array/pref_emotions_exercises_to_make"
+        android:entryValues="@array/pref_emotions_exercises_to_make"
+        android:summary="@string/pref_summary_number_of_exercises"
+        android:defaultValue="5"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <CheckBoxPreference
+        android:key="pref_emotions_valid_same_group"
+        android:title="@string/pref_emotions_valid_same_group_title"
+        android:summary="@string/pref_emotions_valid_same_group_summary"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="pref_emotions_using_robot"
+        android:title="@string/pref_emotions_using_robot_title"
+        android:summary="@string/pref_emotions_using_robot_summary"
+        android:defaultValue="true" />
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <!--<CheckBoxPreference-->
+    <!--android:key="notifications_new_message"-->
+    <!--android:title="@string/pref_title_new_message_notifications"-->
+    <!--android:defaultValue="true" />-->
+
+    <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+    <!--<RingtonePreference-->
+    <!--android:dependency="notifications_new_message"-->
+    <!--android:key="notifications_new_message_ringtone"-->
+    <!--android:title="@string/pref_title_ringtone"-->
+    <!--android:ringtoneType="notification"-->
+    <!--android:defaultValue="content://settings/system/notification_sound" />-->
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!--<CheckBoxPreference-->
+    <!--android:dependency="notifications_new_message"-->
+    <!--android:key="notifications_new_message_vibrate"-->
+    <!--android:title="@string/pref_title_vibrate"-->
+    <!--android:defaultValue="true" />-->
+
+</PreferenceScreen>

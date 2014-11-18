@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+     https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="fragment_padding">5dp</dimen>
+    <dimen name="fragment_landscape_size">500dp</dimen>
+    <dimen name="text_large">26sp</dimen>
+    <dimen name="text_medium">22sp</dimen>
+    <dimen name="text_small">18sp</dimen>
+    <dimen name="element_padding_large">20dp</dimen>
+    <dimen name="element_padding_medium">10dp</dimen>
+    <dimen name="element_padding_small">3dp</dimen>
+    <dimen name="therapy_element_width">110dp</dimen>
+    <dimen name="therapy_element_height">130dp</dimen>
+    <dimen name="element_header">120dp</dimen>
+
+    <integer name="number_of_columns">1</integer>
+
+    <!--Orange theme-->
+    <dimen name="button_margin">0dp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+    <dimen name="gridview_padding">0dp</dimen>
+    <dimen name="gridview_vertical_spacing">15dp</dimen>
+    <dimen name="small_vertical_spacing">2dp</dimen>
+    <dimen name="medium_vertical_spacing">4dp</dimen>
+    <dimen name="big_vertical_spacing">6dp</dimen>
+    <dimen name="gridview_horizontal_spacing">25dp</dimen>
+    <dimen name="gridview_column_width">50dp</dimen>
+    <dimen name="action_top_margin">4dp</dimen>
+    <dimen name="action_left_margin">6dp</dimen>
+    <dimen name="action_right_margin">6dp</dimen>
+</resources>

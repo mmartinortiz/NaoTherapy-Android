@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/orange</item>
+        <item name="android:displayOptions">useLogo|showTitle|showHome</item>
+    </style>
+
+    <style name="orange_button" parent="AppTheme">
+        <item name="android:background">@drawable/launcher_selector</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="sentence" parent="AppTheme">
+        <!--<item name="android:background">@drawable/squared_orange_container_with_shadow</item>-->
+        <item name="android:background">@drawable/sentence_selector</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">start</item>
+    </style>
+</resources>

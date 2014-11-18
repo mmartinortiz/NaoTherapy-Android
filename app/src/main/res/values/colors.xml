@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#1E90FF</color>
+    <color name="orange">#F6891F</color>
+    <color name="orange_light">#FDBA33</color>
+    <color name="gray_wrong">#999999</color>
+    <color name="gray_discarded">#AAAAAA</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="black_header">#333333</color>
+    <color name="background">#DDDDDD</color>
+    <!--<color name="background">#EEEEEE</color>-->
+</resources>

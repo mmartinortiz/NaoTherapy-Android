@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <!-- disabled state -->
+    <!--<item android:drawable="@drawable/orange_container_disable" android:state_enabled="false"/>-->
+    <item android:drawable="@drawable/orange_container_disable" android:state_enabled="false" />
+
+    <!-- enabled and pressed state -->
+    <item android:drawable="@drawable/orange_container_pressed" android:state_enabled="true" android:state_pressed="true" />
+
+    <item android:state_checked="true" android:state_enabled="true" android:drawable="@drawable/orange_container_checked" />
+    <item android:state_checked="false" android:state_enabled="true" android:drawable="@drawable/squared_orange_container_with_shadow" />
+    <!-- enabled state -->
+    <item android:drawable="@drawable/squared_orange_container_with_shadow" android:state_enabled="true" />
+
+</selector>

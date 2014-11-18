@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SuccessState">
+        <attr name="state_success" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="MistakeState">
+        <attr name="state_mistake" format="boolean" />
+    </declare-styleable>
+</resources>

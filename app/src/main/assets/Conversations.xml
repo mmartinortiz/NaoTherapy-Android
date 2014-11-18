@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<therapy name="Conversations" language="dutch" type="conversations">
+    <behaviour name="Hallo" package="conversations" />
+    <behaviour name="Greetings" package="conversations" />
+    <behaviour name="Watch Card" package="conversations" />
+    <behaviour name="Compliment" package="conversations" />
+    <behaviour name="Bye bye" package="conversations" />
+    <sentence attitude="Normal" language="Dutch" sentence="Hoe gaat het met jou?" />
+    <sentence attitude="Negative" language="Dutch" sentence="Heb je er zin in vandaag?" />
+    <sentence attitude="Positive" language="Dutch" sentence="Wat zie je er mooi uit!" />
+    <sentence attitude="Happy" language="Dutch" sentence="Zullen we beginnen?" />
+    <sentence attitude="Sad" language="Dutch"
+        sentence="Luister goed naar wat ik nu ga vertellen. En vraag het gerust waneer je het niet helemaal goed begrijpt" />
+    <sentence attitude="Normal" language="Dutch"
+        sentence="Vandaag gaan wij een spelletje spelen. Jij moet voor mij een kaart van de stapel pakken. De eerste kaart van de stapel. Die leg jij achter het houten plankje neer, zodat ik hem goed kan zien. Is dat duidelijk?" />
+    <sentence attitude="Normal" language="Dutch"
+        sentence="Het is belangrijk dat jij de kaart NIET kan zien. Snap je waarom?" />
+    <sentence attitude="Normal" language="Dutch" sentence="Ja inderdaad! Goed zo!" />
+    <sentence attitude="Normal" language="Dutch" sentence="Nee, het heeft een andere reden" />
+    <sentence attitude="Normal" language="Dutch"
+        sentence="Het spel is dat jij moet raden wat voor dier er op mijn kaart staat. Je kunt daar achter komen door mij goede vragen te stellen. Hoe beter jouw vragen zijn, hoe sneller jij het goede anrwoord zal raden" />
+    <sentence attitude="Normal" language="Dutch"
+        sentence="Heb je nog vragen voordat we beginnen?" />
+    <sentence attitude="Normal" language="Dutch" sentence="Ok, laten we beginnen. Succes!" />
+    <sentence attitude="Normal" language="Dutch"
+        sentence="Ik denk dat we nu klaar zijn. Het is tijd om dag te gaan zeggen. Hoe vond jij het om met mij te spelen?" />
+</therapy>

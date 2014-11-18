@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_network_title"
+        android:key="network_settings">
+        <EditTextPreference
+            android:key="pref_robot_ip"
+            android:summary="@string/pref_robot_ip_summary"
+            android:title="@string/pref_robot_ip_title"
+            android:defaultValue=""
+            android:inputType="phone" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_speech_title"
+        android:key="speech_settings">
+        <ListPreference
+            android:key="pref_speech_language"
+            android:summary="@string/pref_speech_language_summary"
+            android:title="@string/pref_speech_language"
+            android:defaultValue="English"
+            android:inputType="" />
+    </PreferenceCategory>
+</PreferenceScreen>

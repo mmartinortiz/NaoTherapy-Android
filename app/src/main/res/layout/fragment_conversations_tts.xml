@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/squared_orange_container"
+    android:layout_marginTop="@dimen/action_left_margin"
+    android:layout_marginLeft="@dimen/action_left_margin"
+    android:layout_marginStart="@dimen/action_left_margin"
+    android:layout_marginRight="@dimen/action_right_margin"
+    android:layout_marginEnd="@dimen/action_right_margin"
+    android:padding="@dimen/button_padding">
+
+    <TextView
+        android:id="@+id/tts_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/tts_action_selector" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/tts_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@android:drawable/ic_menu_edit"
+            android:drawableEnd="@android:drawable/ic_menu_edit"
+            android:hint="@string/say_hint"
+            android:inputType="textAutoCorrect" />
+
+        <include layout="@layout/attitude_radio_group" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/action_left_margin"
+    android:layout_marginStart="@dimen/action_left_margin"
+    android:layout_marginRight="@dimen/action_right_margin"
+    android:layout_marginEnd="@dimen/action_right_margin">
+
+    <TextView
+        android:id="@+id/sentences_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:paddingTop="@dimen/element_padding_medium"
+        android:paddingBottom="@dimen/element_padding_medium"
+        android:textSize="@dimen/text_medium"
+        android:text="@string/predefined_sentences_header" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+    <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
+        android:id="@+id/sentences_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/action_top_margin"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15.0sp"
+        android:verticalSpacing="@dimen/small_vertical_spacing" />
+
+</LinearLayout>

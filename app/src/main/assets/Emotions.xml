@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<therapy name="Conversations" type="emotions" language="dutch">
+    <emotion group="Verdrietig" name="teleurgesteld" language="dutch">
+        <behaviour name="Disappointed" package="emotions" />
+    </emotion>
+    <emotion group="Verdrietig" name="droevig" language="dutch">
+        <behaviour name="Mournful" package="emotions" />
+    </emotion>
+    <emotion group="Verdrietig" name="afgewezen" language="dutch">
+        <behaviour name="Rejected" package="emotions" />
+    </emotion>
+    <emotion group="Blij" name="vrolijk" language="dutch">
+        <behaviour name="Cheerful" package="emotions" />
+    </emotion>
+    <emotion group="Blij" name="opgewonden" language="dutch">
+        <behaviour name="Excited" package="emotions" />
+    </emotion>
+    <emotion group="Blij" name="enthousiast" language="dutch">
+        <behaviour name="Enthusiastic" package="emotions" />
+    </emotion>
+    <emotion group="Boos" name="nijdig" language="dutch">
+        <behaviour name="Mad" package="emotions" />
+    </emotion>
+    <emotion group="Boos" name="kwaad" language="dutch">
+        <behaviour name="Angry" package="emotions" />
+    </emotion>
+    <emotion group="Bang" name="doodsbang" language="dutch">
+        <behaviour name="Terrified" package="emotions" />
+    </emotion>
+    <emotion group="Bang" name="geschrokken" language="dutch">
+        <behaviour name="Startled" package="emotions" />
+    </emotion>
+    <emotion group="Bang" name="onzeker" language="dutch">
+        <behaviour name="Insecure" package="emotions" />
+    </emotion>
+</therapy>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Therapist Nao</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <!-- <string name="title_activity_settings">Settings</string> -->
+
+    <string name="new_sentence_dialog_title">New predefined sentence</string>
+    <string name="new_sentence_dialog_message">Set the text and the attitude for the new predefined sentence.\nNote that the language will be set to the current robot language</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="say_hint">Say something new…</string>
+    <string name="dummy_text">This is a Dummy Fragment</string>
+
+    <!-- Preferences strings -->
+    <string name="pref_network_title">Network</string>
+    <string name="pref_robot_ip_summary">Your robot have to be connected to the same Local Network</string>
+    <string name="pref_robot_ip_title">Robot IP Address</string>
+    <string name="pref_speech_title">Speech Recognition</string>
+    <string name="pref_speech_language">Robot Language</string>
+    <string name="pref_speech_language_summary">The language the robot will use for speech (to talk and recognition)</string>
+    <string name="title_activity_emotions">EmotionsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_therapy_selector">TherapySelectorActivity</string>
+    <string name="therapy_emotions_label">eMotions</string>
+    <string name="therapy_conversations_label">Let\'s Talk</string>
+    <string name="emotions_header">Wat denk je dat de robot voelt?</string>
+    <!--<string name="emotions_header">What do you think the robot is feeling?</string>-->
+    <string name="emotions_header_no_robot">Wat denk je dat hij voelt?</string>
+    <!--<string name="emotions_header_no_robot">What do you think Juan is feeling?</string>-->
+    <string name="emotions_header_done">Well done!</string>
+    <string name="emotions_congratulate_text">Je bent klaar met de oefening</string>
+    <!--<string name="emotions_congratulate_text">You have finished all the exercises</string>-->
+    <string name="conversations_left_header">Actions</string>
+    <string name="add_sentence">Add</string>
+    <string name="predefined_sentences_header">Recently used</string>
+    <string name="title_activity_conversations">ConversationsActivity</string>
+    <string name="next_button">Volgende Emotie</string>
+    <string name="tts_action_label">ACTION:</string>
+    <string name="attitude_label">NORMAL</string>
+    <string name="conversations_right_header">Conversations</string>
+    <string name="itemdeleted">Item deleted</string>
+    <string name="taptoundo">Tap to undo</string>
+
+
+</resources>

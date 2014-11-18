@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/therapy_fragment_elements"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:choiceMode="multipleChoice"
+        android:layout_marginTop="@dimen/action_top_margin"
+        android:layout_marginLeft="@dimen/action_left_margin"
+        android:layout_marginStart="@dimen/action_left_margin"
+        android:layout_marginRight="@dimen/action_left_margin"
+        android:layout_marginEnd="@dimen/action_left_margin"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="25.0sp" />
+</LinearLayout>
